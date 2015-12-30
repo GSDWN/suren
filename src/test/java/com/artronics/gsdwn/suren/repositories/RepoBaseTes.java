@@ -1,9 +1,9 @@
 package com.artronics.gsdwn.suren.repositories;
 
-import com.artronics.gsdwn.suren.entities.DeviceConnection;
-import com.artronics.gsdwn.suren.entities.SdwnController;
-import com.artronics.gsdwn.suren.entities.SdwnNetwork;
-import com.artronics.gsdwn.suren.entities.SdwnNode;
+import com.artronics.gsdwn.core.entities.DeviceConnection;
+import com.artronics.gsdwn.core.entities.SdwnController;
+import com.artronics.gsdwn.core.entities.SdwnNetwork;
+import com.artronics.gsdwn.core.entities.SdwnNode;
 import com.artronics.gsdwn.suren.helper.CreateEntities;
 import com.artronics.gsdwn.suren.persistence.repositories.*;
 import org.apache.log4j.Logger;

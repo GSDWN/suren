@@ -1,6 +1,6 @@
 package com.artronics.gsdwn.suren.repositories;
 
-import com.artronics.gsdwn.suren.entities.SdwnNode;
+import com.artronics.gsdwn.core.entities.SdwnNode;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;

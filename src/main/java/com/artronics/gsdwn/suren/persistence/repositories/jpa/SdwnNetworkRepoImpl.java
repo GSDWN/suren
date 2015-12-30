@@ -1,7 +1,7 @@
 package com.artronics.gsdwn.suren.persistence.repositories.jpa;
 
-import com.artronics.gsdwn.suren.entities.SdwnController;
-import com.artronics.gsdwn.suren.entities.SdwnNetwork;
+import com.artronics.gsdwn.core.entities.SdwnController;
+import com.artronics.gsdwn.core.entities.SdwnNetwork;
 import com.artronics.gsdwn.suren.persistence.repositories.SdwnNetworkCustomRepo;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;
@@ -22,7 +22,7 @@ public class SdwnNetworkRepoImpl implements SdwnNetworkCustomRepo
     @Override
     public SdwnNetwork findByIp(String ip)
     {
-        Query q = em.createQuery("FROM com.artronics.gsdwn.suren.entities.SdwnNetwork n where " +
+        Query q = em.createQuery("FROM com.artronics.gsdwn.core.entities.SdwnNetwork n where " +
                                          "n.ip=?1");
         q.setParameter(1,ip);
 

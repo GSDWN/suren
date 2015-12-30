@@ -1,7 +1,7 @@
 package com.artronics.gsdwn.suren.persistence.repositories;
 
-import com.artronics.gsdwn.suren.entities.SdwnController;
-import com.artronics.gsdwn.suren.entities.SdwnNetwork;
+import com.artronics.gsdwn.core.entities.SdwnController;
+import com.artronics.gsdwn.core.entities.SdwnNetwork;
 
 public interface SdwnNetworkCustomRepo
 {

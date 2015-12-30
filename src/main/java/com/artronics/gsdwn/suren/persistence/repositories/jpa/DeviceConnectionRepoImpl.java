@@ -1,7 +1,7 @@
 package com.artronics.gsdwn.suren.persistence.repositories.jpa;
 
-import com.artronics.gsdwn.suren.entities.DeviceConnection;
-import com.artronics.gsdwn.suren.entities.SdwnController;
+import com.artronics.gsdwn.core.entities.DeviceConnection;
+import com.artronics.gsdwn.core.entities.SdwnController;
 import com.artronics.gsdwn.suren.persistence.repositories.DeviceConnectionCustomRepo;
 import com.artronics.gsdwn.suren.persistence.repositories.SdwnControllerRepo;
 import org.apache.log4j.Logger;

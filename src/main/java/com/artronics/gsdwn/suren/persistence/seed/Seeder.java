@@ -1,8 +1,8 @@
 package com.artronics.gsdwn.suren.persistence.seed;
 
-import com.artronics.gsdwn.suren.entities.DeviceConnection;
-import com.artronics.gsdwn.suren.entities.SdwnController;
-import com.artronics.gsdwn.suren.entities.SdwnNetwork;
+import com.artronics.gsdwn.core.entities.DeviceConnection;
+import com.artronics.gsdwn.core.entities.SdwnController;
+import com.artronics.gsdwn.core.entities.SdwnNetwork;
 import com.artronics.gsdwn.suren.persistence.repositories.DeviceConnectionRepo;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

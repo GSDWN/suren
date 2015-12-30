@@ -1,7 +1,7 @@
 package com.artronics.gsdwn.suren.persistence.repositories.jpa;
 
-import com.artronics.gsdwn.suren.entities.SdwnController;
-import com.artronics.gsdwn.suren.entities.SdwnNetwork;
+import com.artronics.gsdwn.core.entities.SdwnController;
+import com.artronics.gsdwn.core.entities.SdwnNetwork;
 import com.artronics.gsdwn.suren.persistence.repositories.SdwnControllerCustomRepo;
 import com.artronics.gsdwn.suren.persistence.repositories.SdwnNetworkRepo;
 import org.apache.log4j.Logger;

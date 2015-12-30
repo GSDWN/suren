@@ -97,7 +97,7 @@ public class PersistenceConfig
 
         emf.setDataSource(dataSource());
 
-        emf.setPackagesToScan("com.artronics.gsdwn.suren.entities");
+        emf.setPackagesToScan("com.artronics.gsdwn.core.entities");
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         emf.setJpaVendorAdapter(vendorAdapter);
